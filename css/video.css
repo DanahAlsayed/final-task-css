@@ -1,0 +1,31 @@
+section.video {
+  margin-bottom: 100px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.video img {
+  width: 100%;
+}
+
+.video .play-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 54px;
+  height: 54px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.video i {
+  font-size: 28px;
+  color: #fff;
+}

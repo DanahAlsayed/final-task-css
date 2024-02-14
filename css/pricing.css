@@ -1,0 +1,99 @@
+.pricing-recurrence {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.pricing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.pricing-grid > * {
+  width: calc(50% - 20px);
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 24px 24px 24px;
+  border: 1px solid #f1f1f3;
+  align-items: center;
+}
+
+.pricing-card .tier {
+  background-color: #fff9f0;
+  border: 1px solid #ffeacc;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 100%;
+  line-height: 31px;
+  box-sizing: border-box;
+}
+
+.price-value {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.price-period {
+  color: #4c4c4d;
+  font-weight: 500;
+}
+
+.features {
+  padding: 30px;
+  border: 1px solid #f1f1f3;
+  width: 100%;
+}
+
+.features h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.features ul {
+  padding: 0;
+}
+
+.features ul li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 14px;
+  padding: 12px;
+  border: 1px solid #f1f1f3;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.features ul li .status {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.features ul li .status.check {
+  background-color: #fff4e5;
+}
+
+.features ul li .status.x {
+  border: 1px solid #f1f1f3;
+}
+
+.btn-get-started {
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}

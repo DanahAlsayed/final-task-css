@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px 20px 0px;
+  align-items: center;
+  margin-bottom: 121px;
+}
+
+#logo {
+  width: 44px;
+  height: 44px;
+}
+
+.links {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  gap: 6px;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 14px;
+  padding: 12px 20px;
+  white-space: nowrap;
+}
+
+#left {
+  display: flex;
+  gap: 50px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#right {
+  display: flex;
+  gap: 6px;
+}

@@ -1,0 +1,20 @@
+.partners {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  list-style: none;
+  display: flex;
+  max-width: 1280px;
+}
+
+.partner-link:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.partner-link {
+  padding: 20px 60px;
+}
+
+.partner-link img {
+  height: 28px;
+}
